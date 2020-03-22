@@ -1,0 +1,8 @@
+version: 1.32.1
+files:
+  - url: signal-desktop-win-1.32.1.exe
+    sha512: KmLSlZxv+wd1WL7uQLmUhS9llnStlICCEa0rhYoPA/r6iCetrjNtlBfycYWThpRlwErpVBXc4t4C+do8cNcJaQ==
+    size: 108301352
+path: signal-desktop-win-1.32.1.exe
+sha512: KmLSlZxv+wd1WL7uQLmUhS9llnStlICCEa0rhYoPA/r6iCetrjNtlBfycYWThpRlwErpVBXc4t4C+do8cNcJaQ==
+releaseDate: "2020-03-06T23:10:22.649Z"

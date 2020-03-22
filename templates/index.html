@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update signal App</title>
+</head>
+
+<body>
+  <ul>
+    <h2>ALWAYS download the latest version signal from official website!</h2>
+    {% for item in latest %}
+    {% for attr, value in item.items() %}
+    {% if 'url' == attr %}
+    <li>Download from official: <a href="{{value}}">{{value}}</a></li>
+    {% elif 'detour' == attr %}
+    <li>Download from detour server: <a href="{{value}}">{{value}}</a></li>
+    {% elif 'head' == attr %}
+    <li>
+      <h3>{{value}}</h3>
+    </li>
+    {% else %}
+    <li>{{attr}} : {{value}}</li>
+    {% endif %}
+    {% endfor %}
+    <hr>
+    {% endfor %}
+  </ul>
+</body>
+
+</html>

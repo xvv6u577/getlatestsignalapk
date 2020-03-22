@@ -1,0 +1,12 @@
+version: 1.32.1
+files:
+  - url: signal-desktop-mac-1.32.1.zip
+    sha512: NEVplfEjbIgzUsssTY7jdkpk8VMKp7+wt4MCIR5sqh7Np0LQZrKQBi9+C1kpSVgULGvA3VWSpgeVeWRTUUxE3Q==
+    size: 127974579
+    blockMapSize: 134995
+  - url: signal-desktop-mac-1.32.1.dmg
+    sha512: Gp51mqu1xgb1jMYkmSgncS8Gltc5O9D86C/NczFie4IlpVzZCCjDSAXhVFwTXg2eNroeGev8f3E3cV1A9AEUkw==
+    size: 130939574
+path: signal-desktop-mac-1.32.1.zip
+sha512: NEVplfEjbIgzUsssTY7jdkpk8VMKp7+wt4MCIR5sqh7Np0LQZrKQBi9+C1kpSVgULGvA3VWSpgeVeWRTUUxE3Q==
+releaseDate: '2020-03-06T23:02:36.297Z'

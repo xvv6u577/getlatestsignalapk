@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve getlatestsignalapk
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/getlatestsignalapk
+Environment="PATH=/home/ubuntu/getlatestsignalapk/venv/bin"
+ExecStart=/home/ubuntu/getlatestsignalapk/venv/bin/uwsgi --ini getsignal.ini
+
+[Install]
+WantedBy=multi-user.target
